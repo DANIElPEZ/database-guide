@@ -1,0 +1,13 @@
+NORMALIZACION
+
+PRIMERA FORMA NORMAL(1):
+	-Toda tabla debe llevar llave primaria, no es necesario que sea auto incrementable.
+	-No debe tener datos compuestos ejemplo -> "nombre completo".
+	-No debe tener grupos repetitivos.
+	-Las columnas con un solo valor por fila.
+
+SEGUNDA FORMA NORMAL(2):
+	-Eliminar campos parciales ejemplo -> "estado de un pedido que se define en una tabla".
+
+TERCERA FORMA NORMAL(3):
+	-Elimina dependencias transitorias ejemplo -> "relaciones innecesarias".
